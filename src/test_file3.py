@@ -1,5 +1,5 @@
-from file3 import func0
+from file3 import func3
 
 
 def test_file3():
-    assert func3() == 0
+    assert func3() == 3
