@@ -1,2 +1,5 @@
 def func4():
-    return 4
+    if True:
+        return 4
+
+    return 0
