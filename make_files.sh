@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e
+
 for n in {1..4};
 do
     cat src/file0.py | sed "s/0/$n/g" > "src/file$n.py"
